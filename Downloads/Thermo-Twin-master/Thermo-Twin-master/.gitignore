@@ -1,0 +1,28 @@
+# Large generated files
+data/raw/*.csv
+
+# Allow processed data needed for Render deployment (small files, <1 MB each)
+# data/processed/scaler.pkl      -- committed
+# data/processed/train_windows.npz -- committed
+# data/processed/test_windows.npz  -- committed
+# data/processed/val_windows.npz   -- committed
+
+# Allow model checkpoints needed for Render deployment
+# model/checkpoints/autoencoder.pt        -- committed (275 KB)
+# model/checkpoints/threshold_config.json -- committed
+
+# Exclude only the large isolation forest model
+# model/checkpoints/isolation_forest.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+

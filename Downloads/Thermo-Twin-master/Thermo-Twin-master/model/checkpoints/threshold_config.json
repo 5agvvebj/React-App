@@ -1,0 +1,9 @@
+{
+  "threshold": 0.200071,
+  "val_mean": 0.148119,
+  "val_std": 0.020781,
+  "n_sigma": 2.5,
+  "p99_anomaly": 19.417408,
+  "best_val_loss": 0.148119,
+  "if_threshold": -0.00899
+}
